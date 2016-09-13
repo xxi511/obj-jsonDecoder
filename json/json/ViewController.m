@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "parseRes.h"
 #import "NSObject+obj.h"
 
 
@@ -26,27 +25,6 @@
     //[self parseJson01];
     //[self parseJson02];
     [self parseJson03];
-    
-    NSDictionary *thrDic = @{@"hi":@"sayHi"};
-    NSDictionary *dic = @{@"first":@"i'm first",
-                          @"second":@"i'm second",
-                          @"thrDic":thrDic};
-    
-    NSArray *arr = @[@"a",@"b",@"c",@"d"];
-    NSArray *thrArr = @[thrDic,thrDic,thrDic];
-    
-    NSDictionary *json = @{@"num":[NSNumber numberWithInt:1],
-                           @"dic":dic,
-                           @"str":@"theStr",
-                           @"arr":arr,
-                           @"thrArr":thrArr};
-    
-    NSObject *a = [[parseRes alloc]init];
-    [a setValue:@"theStr" forKey:@"str"];
-    
-    parseRes *pas = [[parseRes alloc]init];
-    [pas setValueByDic:json];
-    NSLog(@"f");
 }
 
 - (void)didReceiveMemoryWarning {

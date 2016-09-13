@@ -13,7 +13,6 @@
 		153284201D6DDD6500AE078C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1532841E1D6DDD6500AE078C /* Main.storyboard */; };
 		153284221D6DDD6500AE078C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153284211D6DDD6500AE078C /* Assets.xcassets */; };
 		153284251D6DDD6500AE078C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153284231D6DDD6500AE078C /* LaunchScreen.storyboard */; };
-		1532842E1D6DDFB500AE078C /* parseRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1532842D1D6DDFB500AE078C /* parseRes.m */; };
 		153284311D6DE08E00AE078C /* NSObject+obj.m in Sources */ = {isa = PBXBuildFile; fileRef = 153284301D6DE08E00AE078C /* NSObject+obj.m */; };
 		15DD05E31D717E5E00DF99E5 /* json01Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DD05E21D717E5E00DF99E5 /* json01Model.m */; };
 		15DD05EF1D71825800DF99E5 /* json02Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DD05EE1D71825800DF99E5 /* json02Model.m */; };
@@ -21,8 +20,6 @@
 		15F5119B1D72C76B0001BD56 /* json02.exp in Resources */ = {isa = PBXBuildFile; fileRef = 15F511991D72C7080001BD56 /* json02.exp */; };
 		15F511A01D72D05F0001BD56 /* json03Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F5119F1D72D05F0001BD56 /* json03Model.m */; };
 		15F511A11D72D2640001BD56 /* json03.exp in Resources */ = {isa = PBXBuildFile; fileRef = 15F5119C1D72D02F0001BD56 /* json03.exp */; };
-		15F511A31D72D2D60001BD56 /* json04.exp in Resources */ = {isa = PBXBuildFile; fileRef = 15F511A21D72D2C30001BD56 /* json04.exp */; };
-		15F511A71D72D2F40001BD56 /* json04Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F511A61D72D2F40001BD56 /* json04Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +33,6 @@
 		153284211D6DDD6500AE078C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153284241D6DDD6500AE078C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		153284261D6DDD6500AE078C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1532842C1D6DDFB500AE078C /* parseRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseRes.h; sourceTree = "<group>"; };
-		1532842D1D6DDFB500AE078C /* parseRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseRes.m; sourceTree = "<group>"; };
 		1532842F1D6DE08E00AE078C /* NSObject+obj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+obj.h"; sourceTree = "<group>"; };
 		153284301D6DE08E00AE078C /* NSObject+obj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+obj.m"; sourceTree = "<group>"; };
 		15DD05E11D717E5E00DF99E5 /* json01Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json01Model.h; sourceTree = "<group>"; };
@@ -49,9 +44,6 @@
 		15F5119C1D72D02F0001BD56 /* json03.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = json03.exp; sourceTree = "<group>"; };
 		15F5119E1D72D05F0001BD56 /* json03Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json03Model.h; sourceTree = "<group>"; };
 		15F5119F1D72D05F0001BD56 /* json03Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = json03Model.m; sourceTree = "<group>"; };
-		15F511A21D72D2C30001BD56 /* json04.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = json04.exp; sourceTree = "<group>"; };
-		15F511A51D72D2F40001BD56 /* json04Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json04Model.h; sourceTree = "<group>"; };
-		15F511A61D72D2F40001BD56 /* json04Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = json04Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +87,6 @@
 				153284231D6DDD6500AE078C /* LaunchScreen.storyboard */,
 				153284261D6DDD6500AE078C /* Info.plist */,
 				153284151D6DDD6500AE078C /* Supporting Files */,
-				1532842C1D6DDFB500AE078C /* parseRes.h */,
-				1532842D1D6DDFB500AE078C /* parseRes.m */,
 				1532842F1D6DE08E00AE078C /* NSObject+obj.h */,
 				153284301D6DE08E00AE078C /* NSObject+obj.m */,
 			);
@@ -117,7 +107,6 @@
 				15F511981D72C6F90001BD56 /* json01.exp */,
 				15F511991D72C7080001BD56 /* json02.exp */,
 				15F5119C1D72D02F0001BD56 /* json03.exp */,
-				15F511A21D72D2C30001BD56 /* json04.exp */,
 			);
 			name = jsonFile;
 			sourceTree = "<group>";
@@ -125,7 +114,6 @@
 		15DD05D91D717A6200DF99E5 /* parseModel */ = {
 			isa = PBXGroup;
 			children = (
-				15F511A41D72D2E10001BD56 /* json04Model */,
 				15F5119D1D72D04D0001BD56 /* json03Model */,
 				15DD05EC1D71823F00DF99E5 /* json02Model */,
 				15DD05DA1D717A6B00DF99E5 /* json01Model */,
@@ -158,15 +146,6 @@
 				15F5119F1D72D05F0001BD56 /* json03Model.m */,
 			);
 			name = json03Model;
-			sourceTree = "<group>";
-		};
-		15F511A41D72D2E10001BD56 /* json04Model */ = {
-			isa = PBXGroup;
-			children = (
-				15F511A51D72D2F40001BD56 /* json04Model.h */,
-				15F511A61D72D2F40001BD56 /* json04Model.m */,
-			);
-			name = json04Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +205,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F511A31D72D2D60001BD56 /* json04.exp in Resources */,
 				15F511A11D72D2640001BD56 /* json03.exp in Resources */,
 				15F5119A1D72C76B0001BD56 /* json01.exp in Resources */,
 				15F5119B1D72C76B0001BD56 /* json02.exp in Resources */,
@@ -247,9 +225,7 @@
 				1532841D1D6DDD6500AE078C /* ViewController.m in Sources */,
 				15DD05E31D717E5E00DF99E5 /* json01Model.m in Sources */,
 				1532841A1D6DDD6500AE078C /* AppDelegate.m in Sources */,
-				15F511A71D72D2F40001BD56 /* json04Model.m in Sources */,
 				153284311D6DE08E00AE078C /* NSObject+obj.m in Sources */,
-				1532842E1D6DDFB500AE078C /* parseRes.m in Sources */,
 				15F511A01D72D05F0001BD56 /* json03Model.m in Sources */,
 				153284171D6DDD6500AE078C /* main.m in Sources */,
 			);

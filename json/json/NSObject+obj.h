@@ -12,9 +12,8 @@
 - (void)setValueByDic:(NSDictionary *)dic;
 
 /*
- array 裡面的class還是array的時候
- custom要放在那個class裡面
- 不然就放在最根源處就好了
+ please read wiki
+ https://github.com/xxi511/obj-jsonDecoder/wiki
  */
 - (NSObject *)customClassInArray:(NSString *)arrayName;
 @end

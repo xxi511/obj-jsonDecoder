@@ -22,10 +22,29 @@
 @end
 
 @interface popup_json2 : NSObject
-@property (strong, nonatomic) NSArray *menuitem;
+@property (strong, nonatomic) NSArray<menuItem *> *menuitem;
 @end
 
 @interface menuItem : NSObject
 @property (strong, nonatomic) NSString *value;
 @property (strong, nonatomic) NSString *onclick;
+@end
+
+@class customA, customB;
+@interface rootObj : NSObject
+@property (strong, nonatomic) NSArray<customA *> *customAArray;
+
+//override for customA
+- (NSObject *)customClassInArray:(NSString *)arrayName;
+@end
+
+@interface customA : NSObject
+@property (strong, nonatomic) NSArray<customB *> *customBArray;
+
+//override for customB
+- (NSObject *)customClassInArray:(NSString *)arrayName;
+@end
+
+@interface customB : NSObject
+
 @end
